@@ -1,0 +1,67 @@
+ul li {
+  list-style-type: none;
+  display: none;
+/*   border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin-left: -40px;
+  margin-bottom: 5px; */
+}
+
+button {
+  border: 1px solid #ccc;
+  color: #fff;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.example {
+    background-color: yellow;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-left: -40px;
+    margin-bottom: 5px;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: black; font-weight: 200;}
+    to {background-color: yellow; font-weight: bold;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: black; font-weight: 200;}
+    to {background-color: yellow; font-weight: bold;}
+}
+
+/* li:nth-child(1){
+    -webkit-animation: example 2s linear forwards;
+}
+li:nth-child(2){
+    -webkit-animation: example 2s linear 1s forwards;
+}
+li:nth-child(3){
+    -webkit-animation: example 2s linear 2s forwards;
+}
+li:nth-child(4){
+    -webkit-animation: example 2s linear 3s forwards;
+}
+li:nth-child(5){
+    -webkit-animation: example 2s linear 4s forwards;
+} */
